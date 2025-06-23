@@ -18,7 +18,7 @@ export default function MovieList({ onEdit, onDelete }) {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
+  }, );
 
   return (
     <div>
